@@ -1,0 +1,8 @@
+instances: 1
+memory: 512M
+env:
+    SPRING_PROFILES_DEFAULT: cloud
+applications:
+- name: zipkin-service
+  path: target/spring-cloud-sleuth-sample-zipkin-stream-1.1.0.BUILD-SNAPSHOT-exec.jar
+
